@@ -1,0 +1,28 @@
+DROP DATABASE BBS;
+
+CREATE DATABASE BBS;
+
+USE BBS;
+
+CREATE TABLE USER (
+    userID VARCHAR(20),
+    userPassword VARCHAR(20),
+    userName VARCHAR(20),
+    userGender VARCHAR(20),
+    userEmail VARCHAR(50),
+    PRIMARY KEY (userID)
+);
+
+SHOW TABLES;
+
+DESC USER;
+
+INSERT INTO USER VALUES('enfl8539', 'dudcjs8539', '이성민', '남자', 'hg03017@naver.com');
+
+INSERT INTO USER VALUES('wogns305', 'flrmDhqm305!', '정재훈', '남자', 'jh960508@naver.com');
+
+SELECT * FROM USER;
+
+COMMIT;
+
+DESC USER;
