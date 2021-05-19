@@ -1,3 +1,5 @@
 INDEX VERSION 1.131
+C:\Users\hg030\JSP\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1595761869.index
+\BBS_Project\src
 C:\Users\hg030\JSP\projects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2004450694.index
 \BBS_Project\src

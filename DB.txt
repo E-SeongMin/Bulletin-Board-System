@@ -17,12 +17,20 @@ SHOW TABLES;
 
 DESC USER;
 
-INSERT INTO USER VALUES('enfl8539', 'dudcjs8539', '이성민', '남자', 'hg03017@naver.com');
-
-INSERT INTO USER VALUES('wogns305', 'flrmDhqm305!', '정재훈', '남자', 'jh960508@naver.com');
-
 SELECT * FROM USER;
 
 COMMIT;
 
 DESC USER;
+
+CREATE TABLE BBS (
+    bbsID INT,
+    bbsTitle VARCHAR(50),
+    userID VARCHAR(20),
+    bbsDate DATETIME,
+    bbsContent VARCHAR(2048),
+    bbsAvailable INT,
+    PRIMARY KEY (bbsID)
+);
+
+SELECT * FROM BBS;
